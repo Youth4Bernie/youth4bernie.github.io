@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build the site in the jekyll/builder container
       run: |
-        export PAGES_REPO_NWO="Youth4Bernie/youth4bernie.github.io"
+        export PAGES_REPO_NWO="https://github.com/Youth4Bernie/youth4bernie.github.io.git"
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --trace --incremental"
