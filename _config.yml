@@ -7,3 +7,6 @@ show_downloads: "true"
 
 github:
   url: youthforbernie.com
+  repository:
+    "Youth4Bernie/youth4bernie.github.io"
+    
