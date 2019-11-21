@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+
+p {
+    color : darkgoldenrod;
+    font-family: "Georgia";
+}
+
+* {
+    font-family: "Comic Sans MS";
+}
