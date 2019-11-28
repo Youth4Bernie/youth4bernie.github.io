@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Youth For Bernie!
 ---
 
 # Join Youth For Bernie!
